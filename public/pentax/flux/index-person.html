@@ -1,0 +1,786 @@
+<!doctype html>
+<!--
+Website By Miradontsoa / Highhay
+http://twitter.com/miradontsoa
+http://highhay.com
+miradontsoa at gmail dot com
+-->
+<html class="no-js" lang="en">
+
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+
+  <!-- Page Title Here -->
+  <title>Flux - A portfolio / onepage template</title>
+
+  <!-- Meta -->
+  <!-- Page Description Here -->
+  <meta name="description"
+    content="A beautiful and creative portfolio template. It is mobile friend (responsive) and comes with smooth animations">
+
+  <!-- Disable screen scaling-->
+  <meta name="viewport"
+    content="width=device-width, user-scalable=no, initial-scale=1, maximum-scale=1, user-scalable=0">
+
+  <!-- Twitter Meta -->
+  <meta name="twitter:site" content="@miradontsoa">
+  <meta name="twitter:creator" content="@miradontsoa">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Page Title">
+  <meta name="twitter:description" content="Description of the page">
+  <meta name="twitter:image" content="/img/bg-default.jpg">
+
+  <!-- Facebook Meta -->
+  <meta property="og:url" content="your website url here">
+  <meta property="og:title" content="Page Title">
+  <meta property="og:description" content="Description of the page">
+  <meta property="og:type" content="website">
+  <meta property="og:image" content="/img/bg-default.jpg">
+  <meta property="og:image:secure_url" content="/img/bg-default.jpg">
+  <meta property="og:image:type" content="image/jpg">
+  <meta property="og:image:width" content="1200">
+  <meta property="og:image:height" content="630">
+
+  <!-- Place favicon.ico and apple-touch-icon(s) in the root directory -->
+  <!-- Web fonts and Web Icons -->
+  <link rel="stylesheet" href="fonts/inter/stylesheet.css">
+  <link rel="stylesheet" href="fonts/gilroy/stylesheet.css">
+  <link rel="stylesheet" href="fonts/ionicons.min.css">
+  <link rel="stylesheet" href="fonts/font-awesome.min.css">
+
+  <!-- Vendor CSS style -->
+  <link rel="stylesheet" href="css/pageloader.css">
+
+  <!-- Uncomment below to load individualy vendor CSS -->
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="js/vendor/swiper.min.css">
+  <link rel="stylesheet" href="js/vendor/jquery.fullpage.min.css">
+  <link rel="stylesheet" href="js/vegas/vegas.min.css">
+
+  <!-- Main CSS files -->
+  <link rel="stylesheet" href="css/main.css">
+
+  <!-- add alt layout here -->
+  <link rel="stylesheet" href="css/style-color2.css">
+
+  <script src="js/vendor/modernizr-2.7.1.min.js"></script>
+</head>
+
+<body id="menu" class="body-page">
+  <!--[if lt IE 8]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
+  <!-- Page Loader : just comment these lines to remove it -->
+  <div class="page-loader" id="page-loader">
+    <div>
+      <div class="icon ion-spin"></div>
+      <p>loading</p>
+    </div>
+  </div>
+
+  <!-- BEGIN OF site header Menu -->
+  <header class="navbar navbar-top-alpha scrolled-white menu-right topmenu-right " role="navigation">
+
+    <!-- Begin of menu icon toggler -->
+    <button class="navbar-toggler site-menu-icon btn btn-menu" id="navMenuIcon">
+      <!-- Available class : menu-icon-dot / menu-icon-thick /menu-icon-random -->
+      <span class="text">menu</span>
+      <span class="icon icon-menu icon-menu-a">
+        <span class="bars align-right">
+          <span class="bar1"></span>
+          <span class="bar2"></span>
+          <span class="bar3"></span>
+        </span>
+      </span>
+    </button>
+    <!-- End of menu icon toggler -->
+
+    <!-- Begin of logo/brand -->
+    <a class="navbar-brand" href="index.html#">
+      <span class="logo">
+        <img class="light-logo" src="img/logo.png" alt="Logo">
+      </span>
+      <span class="text">
+        <span class="line">Flux</span>
+        <span class="line sub">Portfolio Template</span>
+      </span>
+    </a>
+    <!-- End of logo/brand -->
+
+    <!-- begin of menu wrapper -->
+    <div class="all-menu-wrapper" id="navbarMenu">
+      <!-- Begin of top menu -->
+      <nav class="navbar-topmenu">
+        <!-- Begin of CTA Actions, & Icons menu -->
+        <!-- <ul class="navbar-nav navbar-nav-actions">
+				<li class="nav-item">
+					<a class="btn btn-outline-white btn-round" target="_blank" href="https://themeforest.net/user/mivfx/portfolio">
+						Buy Now
+					</a>
+				</li>
+			</ul> -->
+        <!-- End of CTA & Icons menu -->
+      </nav>
+      <!-- End of top menu -->
+
+      <!-- Begin of hamburger mainmenu menu -->
+      <nav class="navbar-mainmenu text-center">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="index.html#home">Home <span class="sr-only">(current)</span></a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="gallery.html">Works</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="item.html">Item</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="demo.html">Demo</a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End of hamburger mainmenu menu -->
+
+      <!-- Begin of sidebar nav menu params class: text-only / icon-only-->
+      <nav class="navbar-sidebar left center icon-only font-primary nav">
+        <ul class="navbar-nav" id="qmenu">
+          <li class="nav-item" data-menuanchor="home">
+            <a href="index-person.html#home">
+              <i class="icon ion-home"></i>
+              <span class="txt">About</span>
+            </a>
+          </li>
+          <li class="nav-item" data-menuanchor="projects-featured">
+            <a href="index-person.html#projects-featured">
+              <i class="icon ion-android-image"></i>
+              <span class="txt">Projects</span>
+            </a>
+          </li>
+          <li class="nav-item" data-menuanchor="contact">
+            <a href="index-person.html#contact">
+              <i class="icon ion-android-call"></i>
+              <span class="txt">Contact</span>
+            </a>
+          </li>
+        </ul>
+      </nav>
+      <!-- End of sidebar nav menu -->
+    </div>
+    <!-- end of menu wrapper -->
+
+  </header>
+  <!-- END OF site header Menu-->
+  <!-- BEGIN OF page cover -->
+  <div class="page-cover" id="parallax-cover">
+    <!-- Cover Background -->
+    <div data-depth="0.2" class="cover-bg bg-img" data-image-src="img/bg-default5.jpg"></div>
+
+    <!-- Transluscent mask as filter -->
+    <div class="cover-bg-mask bg-color" data-bgcolor="rgba(58, 52, 48, 0.52)"></div>
+
+  </div>
+  <!--END OF page cover -->
+
+  <!-- BEGIN OF page main content -->
+  <main class="page-main page-fullpage main-anim" id="mainpage">
+
+    <!-- Begin of home section -->
+    <div class="section section-home fullscreen-md fp-auto-height-responsive main-home section-centered"
+      data-section="home">
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper fullwidth with-margin v-center">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="row">
+            <div class="col-12 col-lg-6 text-left">
+              <!-- title and description -->
+              <div class="title-desc">
+                <h1 class="display-4 display-title home-title anim-1"><span class="text-lighter">Hi, I am
+                  </span><br>Paul Roberts.</h1>
+                <p class="anim-2 home-desc">A photographer, blogger at Flux agency, in Atlantis.</p>
+              </div>
+
+              <!-- Action button -->
+              <div class="btns-action anim-3">
+                <a class="btn btn-underline btn-primary mr-4" href="index-person.html#about">
+                  <span class="text">About Me</span>
+                </a>
+                <a class="btn btn-underline btn-primary" href="index-person.html#projects-featured">
+                  <span class="text">Projects</span>
+                </a>
+              </div>
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Arrows scroll down/up -->
+        <footer class="section-footer scrolldown">
+          <a class="down">
+            <span class="icon down"></span>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <!-- End of home section -->
+
+    <!-- Begin of description section -->
+    <div class="section section-description fp-auto-height-responsive " data-section="about">
+      <div class="section-cover-full">
+        <div class="cover-container">
+          <div class="row gx-0">
+            <div class="col-auto col-lg-8 bg-part"></div>
+            <div class="col col-lg-4 bg-part bg-img" data-image-src="img/items/img-portrait-5.jpg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper fullwidth fullheight with-margin center-lg-v">
+
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="row  justify-content-between">
+            <div class="col-12 col-md-6 col-lg-5 text-left center-v pr-md-5 pr-lg-0">
+              <div class="wrapper">
+                <!-- title and description -->
+                <div class="title-desc">
+                  <h5>About Me</h5>
+                  <h2 class="display-4 display-title mb-4 anim-1"><span class="text-lighter">Professional</span><br>
+                    Photographer</h2>
+                  <p class="anim-2">I am professional, and this describes what I do and what is my main mission.
+                    Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque
+                    vehicula fermentum a sit amet nulla.
+                  </p>
+                </div>
+
+                <!-- Action button -->
+                <div class="btns-action anim-3">
+                  <a class="btn btn-underline btn-primary" href="index-person.html#services">
+                    <span class="text">Services</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Arrows scroll down/up -->
+        <footer class="section-footer scrolldown">
+          <a class="down">
+            <span class="icon down"></span>
+          </a>
+          <span class="separator"></span>
+          <a class="up">
+            <span class="icon up"></span>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <!-- End of description section -->
+
+    <!-- Begin of description section -->
+    <div class="section section-description fp-auto-height-responsive " data-section="about-2">
+      <div class="section-cover-full">
+        <div class="cover-container">
+          <div class="row gx-0">
+            <div class="col-auto col-lg-8 bg-part"></div>
+            <div class="col col-lg-4 bg-part bg-img" data-image-src="img/items/img-portrait-4.jpg"></div>
+          </div>
+        </div>
+      </div>
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper fullwidth fullheight with-margin center-lg-v">
+
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="row  justify-content-between">
+            <div class="col-12 col-md-6 col-lg-5 text-left center-v pr-md-5 pr-lg-0">
+              <div class="wrapper">
+                <!-- title and description -->
+                <div class="title-desc">
+                  <h5>About Me</h5>
+                  <h2 class="display-4 display-title mb-4 anim-1"><span class="text-lighter">Senior</span><br>Copywriter
+                  </h2>
+                  <p class="anim-2">I am professional, and this describes what I do and what is my main mission.
+                    Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque
+                    vehicula fermentum a sit amet nulla.
+                  </p>
+                </div>
+
+                <!-- Action button -->
+                <div class="btns-action anim-3">
+                  <a class="btn btn-underline btn-primary" href="index-person.html#services">
+                    <span class="text">Services</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+            </div>
+
+          </div>
+        </div>
+
+        <!-- Arrows scroll down/up -->
+        <footer class="section-footer scrolldown">
+          <a class="down">
+            <span class="icon down"></span>
+          </a>
+          <span class="separator"></span>
+          <a class="up">
+            <span class="icon up"></span>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <!-- End of description section -->
+
+    <!-- Begin of list feature section -->
+    <div class="section section-list-feature fp-auto-height-responsive " data-section="skills">
+
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper fullwidth with-margin margin-topbottom">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="row">
+            <div class="col-12 col-lg-5 text-left">
+              <!-- title and description -->
+              <div class="title-desc">
+                <h5>About Me</h5>
+                <h2 class="display-4 display-title mb-4 anim-1">Other Skills</h2>
+                <p class="anim-2">I can do the following tasks. They are just a simple
+                  representation of what we can do. If you have something else, or a special request, feel free to
+                  contact us.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col col-12 col-lg-12">
+              <!-- service list -->
+              <div class="service-list row anim-list decor-off row-cols-1 row-cols-md-2 row-cols-lg-3 mt-5">
+                <!-- an item -->
+                <div class="col item media">
+                  <div class="img">
+                    <i class="icon ion-android-color-palette opacity-4"></i>
+                  </div>
+                  <div class="media-body">
+                    <a href="index-person.html#">
+                      <h4 class="title-font">Design</h4>
+                      <p>A simple description about this item should be placed here.</p>
+                    </a>
+                    <a class="btn btn-underline btn-primary" href="index-person.html#">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+                <!-- an item -->
+                <div class="col item media">
+                  <div class="img">
+                    <i class="icon ion-android-create opacity-4"></i>
+                  </div>
+                  <div class="media-body">
+                    <a href="index-person.html#">
+                      <h4 class="title-font">Journalism</h4>
+                      <p>A simple description about this item should be placed here.</p>
+                    </a>
+                    <a class="btn btn-underline btn-primary" href="index-person.html">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+                <!-- an item -->
+                <div class="col item media">
+                  <div class="img">
+                    <i class="icon ion-code opacity-4"></i>
+                  </div>
+                  <div class="media-body">
+                    <a href="index-person.html#">
+                      <h4 class="title-font">Coding</h4>
+                      <p>A simple description about this item should be placed here.</p>
+                    </a>
+                    <a class="btn btn-underline btn-primary" href="index-person.html">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+
+              </div>
+              <!-- end of service list -->
+            </div>
+          </div>
+        </div>
+
+        <!-- Arrows scroll down/up -->
+        <footer class="section-footer scrolldown">
+          <a class="down">
+            <span class="icon down"></span>
+          </a>
+          <span class="separator"></span>
+          <a class="up">
+            <span class="icon up"></span>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <!-- End of list feature section -->
+    <!-- Begin of slider section -->
+    <div class="section section-twoside fullscreen-slider  py-0" data-section="projects-featured">
+
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample11.jpg" alt="Image">
+              <div class="decor-frame"></div>
+            </div>
+            <div class="legend">
+              <a href="item.html#project_url">
+                <h4>Jan 1920</h4>
+                <h3 class="mb-4 title-font">Wedding Photo</h3>
+                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla. </p>
+              </a>
+              <a class="btn btn-underline btn-primary" href="item.html#project_url">
+                <span class="text">View Project</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample1.jpg" alt="Image">
+              <div class="decor-frame"></div>
+            </div>
+            <div class="legend">
+              <a href="item.html#project_url">
+                <h4>Feb 1930</h4>
+                <h3 class="mb-4 title-font">Interior Photo</h3>
+                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla. </p>
+              </a>
+              <a class="btn btn-underline btn-primary" href="item.html#project_url">
+                <span class="text">View Project</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <div class="slide">
+        <div class="slide-wrapper">
+          <div class="item-wrapper">
+            <div class="illustr">
+              <img class="img img-block" src="img/items/img-sample3.jpg" alt="Image">
+              <div class="decor-frame"></div>
+            </div>
+            <div class="legend">
+              <a href="item.html#project_url">
+                <h4>March 1940</h4>
+                <h3 class="mb-4 title-font">Eventus Gallery Art</h3>
+                <p>Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit.
+                  Maecenas a sem ultrices neque vehicula fermentum a sit amet nulla. </p>
+              </a>
+              <a class="btn btn-underline btn-primary" href="item.html#project_url">
+                <span class="text">View Project</span>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- Arrows scroll down/up -->
+      <footer class="section-footer scrolldown">
+        <a class="down">
+          <span class="icon down"></span>
+        </a>
+        <span class="separator"></span>
+        <a class="up">
+          <span class="icon up"></span>
+        </a>
+      </footer>
+
+    </div>
+    <!-- End of slider section -->
+
+    <!-- Begin of list projects section -->
+    <div class="section section-list-feature fp-auto-height-responsive " data-section="projects-list">
+
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper fullwidth with-margin margin-topbottom">
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="row">
+            <div class="col-12 col-lg-5 text-left">
+              <!-- title and description -->
+              <div class="title-desc">
+                <h5>Works</h5>
+                <h2 class="display-4 display-title mb-4 anim-1">All Projects</h2>
+                <p class="anim-2">Here are some sample list of our projects. They are just a simple
+                  representation of what we can do. If you have something else, or a special request, feel
+                  free to contact us.
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <!-- project list -->
+          <div class="project-list mt-5">
+            <div class="row gx-lg-5 gy-lg-5 row-cols-1 row-cols-md-2 row-cols-lg-3 ">
+              <!-- an item -->
+              <div class="col">
+                <div class="item media media-project">
+                  <div class="media-img">
+                    <img class="" src="img/items/img-square-2.jpg" alt="An image">
+                  </div>
+                  <div class="media-body">
+                    <a href="item.html#project_url">
+                      <h4>Art / Photo</h4>
+                      <h3>Alpha Project</h3>
+                    </a>
+                  </div>
+                  <div class="media-footer">
+                    <a class="btn btn-underline btn-primary" href="item.html">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <!-- an item -->
+              <div class="col">
+                <div class="item media media-project">
+                  <div class="media-img">
+                    <img class="" src="img/items/img-square-3.jpg" alt="An image">
+                  </div>
+                  <div class="media-body">
+                    <a href="item.html#project_url">
+                      <h4>Archi / Photo</h4>
+                      <h3>Beta Project</h3>
+                    </a>
+                  </div>
+                  <div class="media-footer">
+                    <a class="btn btn-underline btn-primary" href="item.html">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- an item -->
+              <div class="col">
+                <div class="item media media-project">
+                  <div class="media-img">
+                    <img class="" src="img/items/img-square-4.jpg" alt="An image">
+                  </div>
+                  <div class="media-body">
+                    <a href="item.html#project_url">
+                      <h4>Photo / Interior</h4>
+                      <h3>Gamma Project</h3>
+                    </a>
+                  </div>
+                  <div class="media-footer">
+                    <a class="btn btn-underline btn-primary" href="item.html">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- an item -->
+              <div class="col">
+                <div class="item media media-project">
+                  <div class="media-img">
+                    <img class="" src="img/items/img-square-5.jpg" alt="An image">
+                  </div>
+                  <div class="media-body">
+                    <a href="item.html#project_url">
+                      <h4>Blog</h4>
+                      <h3>Alpha Cooking</h3>
+                    </a>
+                  </div>
+                  <div class="media-footer">
+                    <a class="btn btn-underline btn-primary" href="item.html">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- an item -->
+              <div class="col">
+                <div class="item media media-project">
+                  <div class="media-img">
+                    <img class="" src="img/items/img-square-6.jpg" alt="An image">
+                  </div>
+                  <div class="media-body">
+                    <a href="item.html#project_url">
+                      <h4>Blog / Copywriting</h4>
+                      <h3>Beta Platform</h3>
+                    </a>
+                  </div>
+                  <div class="media-footer">
+                    <a class="btn btn-underline btn-primary" href="item.html">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+
+              <!-- an item -->
+              <div class="col">
+                <div class="item media media-project">
+                  <div class="media-img">
+                    <img class="" src="img/items/img-square-7.jpg" alt="An image">
+                  </div>
+                  <div class="media-body">
+                    <a href="item.html#project_url">
+                      <h4>Design / Photo</h4>
+                      <h3>Gamma Escalier</h3>
+                    </a>
+                  </div>
+                  <div class="media-footer">
+                    <a class="btn btn-underline btn-primary" href="item.html">
+                      <span class="text">Details ...</span>
+                    </a>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+          </div>
+
+        </div>
+
+        <!-- Arrows scroll down/up -->
+        <footer class="section-footer scrolldown">
+          <a class="down">
+            <span class="icon down"></span>
+          </a>
+          <span class="separator"></span>
+          <a class="up">
+            <span class="icon up"></span>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <!-- End of list projects section -->
+    <!-- Begin of description section -->
+    <div class="section section-description fp-auto-height-responsive " data-section="contact">
+      <!-- Begin of section wrapper -->
+      <div class="section-wrapper fullwidth fullheight with-margin center-lg-v">
+
+        <!-- content -->
+        <div class="section-content anim">
+          <div class="row  justify-content-between">
+            <div class="col-12 col-md-6 col-lg-5 text-left center-v pr-md-5 pr-lg-0">
+              <div class="wrapper">
+                <!-- title and description -->
+                <div class="title-desc">
+                  <h5>Stay in touch</h5>
+                  <h2 class="display-4 display-title mb-4 anim-1">Contact</h2>
+                  <p class="anim-2">Feel free to contact me for any request
+                    Lorem ipsum magicum dolor sit amet, consectetur adipiscing elit. Maecenas a sem ultrices neque
+                    vehicula fermentum a sit amet nulla.
+                  </p>
+                  <address class="anim-3">
+                    <h4><a href="mailto://hello@email.com" class="text-white">hello@email.com</a></h4>
+                    <h4>+1 234-56789</h4>
+                  </address>
+                </div>
+              </div>
+            </div>
+
+            <div class="col-12 col-md-6 col-lg-5">
+            </div>
+
+          </div>
+        </div>
+        <!-- aside footer -->
+        <div class="section-aside aside-bottom small-relative footer-pos">
+          <div class="text-left text-md-right">
+            <p>Stay updated and follow me</p>
+          </div>
+          <div class="icons icons-margin">
+            <a class="icon-btn" href="index-person.html#">
+              <i class="icon fa fa-instagram"></i>
+            </a>
+            <a class="icon-btn" href="index-person.html#">
+              <i class="icon fa fa-facebook"></i>
+            </a>
+            <a class="icon-btn" href="index-person.html#">
+              <i class="icon fa fa-pinterest"></i>
+            </a>
+            <a class="icon-btn" href="index-person.html#">
+              <i class="icon fa fa-twitter"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- Arrows scroll down/up -->
+        <footer class="section-footer scrolldown">
+          <a class="up">
+            <span class="icon up"></span>
+          </a>
+        </footer>
+      </div>
+      <!-- End of section wrapper -->
+    </div>
+    <!-- End of description section -->
+
+  </main>
+  <!-- END OF page main content -->
+
+  <!-- BEGIN OF page footer -->
+  <footer id="site-footer" class="page-footer">
+
+    <!-- Right content -->
+    <div class="footer-right">
+      <ul class="social-text">
+        <li><a href="http://facebook.com/miradontsoa">Fb</a></li>
+        <li><a href="http://twitter/miradontsoa">Tw</a></li>
+        <li><a href="http://instagram.com/miradontsoa">In</a></li>
+      </ul>
+    </div>
+  </footer>
+  <!-- END OF site footer -->
+
+  <!-- scripts -->
+  <!-- All Javascript plugins goes here -->
+  <script src="js/vendor/jquery-1.12.4.min.js"></script>
+  <script src="js/slick/slick.min.js"></script>
+
+  <!-- All vendor scripts -->
+  <script src="js/vendor/parallax.min.js"></script>
+  <script src="js/vendor/scrolloverflow.min.js"></script>
+  <script src="js/vendor/all.js"></script>
+  <script src="js/particlejs/particles.min.js"></script>
+
+  <!-- Countdown script -->
+  <script src="http://demo.highhay.com/flux/js/jquery.downCount.js"></script>
+
+  <!-- Form script -->
+  <script src="js/form_script.js"></script>
+
+  <!-- Javascript main files -->
+  <script src="js/main.js"></script>
+
+</body>
+
+</html>
