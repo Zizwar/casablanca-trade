@@ -1,0 +1,25 @@
+/*
+Theme Name:     Jupiter Child Theme
+Theme URI: 		http://themeforest.net/user/artbees
+Description:    Child theme for the Jupiter theme 
+Author:         Your name here
+Theme URI: 		http://themeforest.net/user/artbees
+Template:       jupiter
+Version:        1.0
+*/
+
+
+
+/*
+Sample : remove the comment and start adding your own custom CSS rules.
+
+body {
+	background-color:#fff;
+}
+
+*/
+@media (max-width: 1100px) {
+div.mk-text-block p img {
+    width: 100%;
+}
+}
